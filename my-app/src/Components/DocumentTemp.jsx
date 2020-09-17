@@ -77,15 +77,15 @@ export default class DocumentTemp extends Component {
     return (
       <>
         {this.props.TempData.length > 0 ? (
-          <div style={{ display: "flex" }}>
+          <div className='DocsContainer'>
             {this.props.TempData[0].data.Templates.map((a) => (
-              <div style={{ flex: "1px" }}>
+              <div >
                 <div>
                   <img
                     src={a.thumbnail}
                     id={a.id}
                     onClick={() => this.handleDoc(a.id)}
-                    style={{ height: "95%", width: "200px" }}
+                    style={{ height: "95%", width: "150px" }}
                   />
                   <div>{a.title}</div>
                 </div>

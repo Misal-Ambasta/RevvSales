@@ -14,7 +14,7 @@ const Dictaphone = () => {
 
   return (
     <div>
-      <div>
+      {/* <div>
         <img
           src="https://www.flaticon.com/svg/static/icons/svg/2983/2983820.svg"
           style={{
@@ -27,7 +27,7 @@ const Dictaphone = () => {
         />
       </div>
 
-      <p>{transcript}hii</p>
+      <p>{transcript}hii</p> */}
     </div>
   );
 };

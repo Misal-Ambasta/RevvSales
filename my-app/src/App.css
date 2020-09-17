@@ -1,25 +1,114 @@
 body {
-  text-align: center;
+	text-align: center;
 }
 h4 {
-  margin-top: 30px;
-  flex: 1px;
-  margin-left: 30px;
+	margin-top: 20px;
+	flex: 1px;
+	margin-left: 30px;
+	font-weight: bolder;
+	font-size: 20px;
 }
 body {
-  font-family: "Open Sans", sans-serif;
-  font-size: 14px;
-
-  height: 1000px;
-  width: 600px;
-  border: 1px solid black;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	background-image: url("https://images.unsplash.com/photo-1487700160041-babef9c3cb55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1035&q=80");
+	height: 500px;
+	/* background-repeat: no-repeat; */
+	background-size: cover;
+	width: 600px;
+	/* border: 1px solid black; */
 }
 
 img {
-  flex: 1px;
+	flex: 1px;
 
-  margin-left: 20px;
+	margin-left: 20px;
 }
 button {
-  margin-left: 30px;
+	margin-left: 30px;
+}
+
+label {
+	padding-right: 20px;
+	color: #36461D;
+	/* border:1px solid red */
+}
+.emailInput {
+	margin-left: 25px;
+}
+
+.emailBox {
+	/* margin-bottom: 15px; */
+	padding-bottom: 20px;
+	/* position: relative; */
+}
+
+input {
+	border: 0;
+	border-bottom: 1px solid black;
+	outline: none;
+  padding: 5px;
+  background-color: #EBEBEB;
+}
+
+.login {
+	margin-top: 30px;
+	margin-right: -40px;
+	background-color: #446e87;
+	padding: 10px 35px;
+  color: white;
+  font-size: 17px;
+}
+
+/* .backgroundImage{
+  height:370px;
+  
+} */
+
+.border {
+	border: 1px solid red;
+}
+
+button {
+	padding: 7px 15px;
+	border-radius: 20px;
+	cursor: pointer;
+	outline: none;
+	border: 0;
+}
+
+.createBtn {
+	background-color: #77a09b;
+	color: white;
+  margin-bottom: 20px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.avatarImg {
+	width: 60px;
+	margin-left: 105px;
+}
+
+.DocsContainer {
+	display: grid;
+	grid-template-rows: auto auto auto;
+	grid-template-columns: auto auto;
+	color: #36461D;
+	row-gap: 15px;
+}
+
+.Input_email {
+	position: relative;
+}
+
+.mic {
+	position: fixed;
+	left: 395px;
+	top: 83px;
+}
+
+.mic:hover {
+	cursor: pointer;
+	transform: scale(1.1);
 }
