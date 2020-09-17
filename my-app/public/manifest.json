@@ -1,0 +1,16 @@
+{
+  "short_name":"Revvsales",
+  "name": "Revvsales",
+  "icons": {
+    "16": "Revvsales_logo.png",
+    "48": "Revvsales_logo.png",
+   "128": "Revvsales_logo.png"
+  },
+  "permissions": [],
+  "manifest_version": 2,
+  "version": "0.0.1",
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_icon": "Revvsales_logo.png"
+  }
+}
