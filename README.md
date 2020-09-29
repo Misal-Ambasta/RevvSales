@@ -1,7 +1,7 @@
 # RevvSales extension
 
 ## Description:
-We have created a basic chrome extension of RevvSales which will help you to create new documents and also will help you to choose new template according to your need.
+We have created a basic chrome extension of RevvSales which will help you to create new documents and also will help you to choose new template according to your need. It also has a facility of speech recognition for input field of email.
 
 ## Technologies:
 
